@@ -7,7 +7,7 @@ end
 
 package "mongo-10gen-server" do
   version "2.4.9-mongodb_1"
-  options='--nogpgcheck'
+  gpgcheck false
   action :install
 end
 
