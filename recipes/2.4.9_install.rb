@@ -2,6 +2,7 @@ include_recipe "mongodb::10gen_repo"
 
 package "mongo-10gen" do
   version "2.4.9-mongodb_1"
+  options '--nogpgcheck' 
   action :install
 end
 
